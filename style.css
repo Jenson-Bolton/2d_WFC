@@ -1,0 +1,31 @@
+* { box-sizing: border-box; }
+
+a {
+  color: #e6e2d9;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  background: #111316;
+  color: #e6e2d9;
+  font: 15px/1.5 system-ui, sans-serif;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #000;
+}
